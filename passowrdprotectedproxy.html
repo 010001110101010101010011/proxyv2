@@ -1,0 +1,58 @@
+<input type="text" id="password">
+<br>
+<input id="button" type="button" value="‎">
+<div id="HIDDENDIV" class="hidden">
+
+
+<iframe src="https://ccg7oahtmrut5zjvsjzj3q-on.drv.tw/Proxyv3/embed2%20(1).html" style="border: 0; width: 100%; height: 100%">Your browser doesn't support iFrames.</iframe>
+
+
+
+</div>
+
+
+
+<script>
+// Get references to the elements you'll be working with
+var input = document.getElementById("password");
+var div = document.getElementById("HIDDENDIV");
+var btn = document.getElementById("button");
+
+// Set up event handlers in JavaScript
+button.addEventListener("click", validate);
+
+function validate(){
+  if (input.value == 'GUS#2893') { 
+     // No need to add a "show" class. Just remove the "hidden" class.
+     div.classList.remove('hidden');
+     
+     // Or, add it:
+     input.classList.add("hidden");
+  } else {  
+     password.focus(); // <-- If you don't do this first, your select code won't work
+     password.setSelectionRange(0, password.value.length);   
+     alert('🇱 🇱 🇱'); 
+  }
+}
+
+input.addEventListener("keydown", function(event){
+ if (event.keyCode === 13){
+   // No reason to simulate a button click. Just call the code that needs to be run.
+   validate();
+ }
+});		
+</script>
+
+<style>
+.hidden { display: none; }
+
+body {
+background-color: black;
+}
+
+buttons {
+
+background-color: black;
+
+}
+</style>
